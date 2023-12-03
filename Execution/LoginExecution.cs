@@ -10,7 +10,7 @@ namespace PageObjectModel
         LoginPage loginPage = new LoginPage();
      
         [TestMethod]
-        public void LoginWithValidData()
+        public void LoginWithValidDa()
         {
             BasePage.SeleniumInit();
             loginPage.Login("https://adactinhotelapp.com/", "AmirTester", "AmirTester");
